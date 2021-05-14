@@ -1,0 +1,38 @@
+.Login {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #Faf2e8;
+}
+
+.LoginForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.LoginForm input,button{
+    margin: 10px;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+}
+
+button {
+    width: 407px;
+    background-color: #056788;
+    border: none;
+}
+
+
+.LoginForm button:hover{
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
